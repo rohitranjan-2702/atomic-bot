@@ -5,12 +5,13 @@ Clean, ID-driven Discord bot built with TypeScript + better-sqlite3.
 ## Folder Structure
 
 ```
-/discord
-  /commands   →  Slash command files (one per command)
-  /events     →  Discord.JS event handlers
-  loader.ts   →  Auto-loads commands & events
-config.ts      →  Env loading & validation
-.db.ts          →  SQLite singleton + migration
+/src
+  /discord
+    /commands   →  Slash command files (one per command)
+    /events     →  Discord.JS event handlers
+    loader.ts   →  Auto-loads commands & events
+  config.ts      →  Env loading & validation
+  /db         →  SQLite implementation + migration script
 ```
 
 ## Features
